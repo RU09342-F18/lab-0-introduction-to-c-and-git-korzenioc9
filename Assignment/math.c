@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <math.h> //allows for use of mathematic operators
 
 int main()
 {
@@ -9,12 +9,12 @@ int main()
     char operator;
     
     printf("Enter Operation(+, -, *, /, %, <, >, &, |, ^, ~): ");
-    scanf("%c", &operator);
+    scanf("%c", &operator); //takes the users operation
     
     printf("Enter two numbers: ");
-    scanf("%d %d", &num1, &num2);
+    scanf("%d %d", &num1, &num2); //takes the users two numbers
     
-    switch(operator)
+    switch(operator) //allows for choosing one case to perform
 	{
 		//Addition case
 		case '+':
